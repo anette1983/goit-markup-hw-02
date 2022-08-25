@@ -178,7 +178,7 @@ body {
   color: var(--logo-light-color);
 }
 
-.address {
+.location {
   color: var(--light-text-color);
   font-style: normal;
 }
@@ -186,8 +186,10 @@ body {
 .mail,
 .phone {
   color: var(--bottom-contacts-color);
+  font-style: normal;
 }
 
+.location:hover,
 .mail:hover,
 .phone:hover {
   color: var(--accent-color);
