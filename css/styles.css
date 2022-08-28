@@ -3,6 +3,7 @@
   --dark-fill-color: #2f303a;
   --accent-color: #2196f3;
   --secondary-fill-color: #f5f4fa;
+  --hero-btn-active-color: #188CE8;
   --logo-dark-color: #000000;
   --logo-light-color: #ffffff;
   --primary-text-color: #757575;
@@ -112,6 +113,11 @@ body {
   cursor: pointer;
 }
 
+.hero-button:hover,
+.hero-button:focus {
+  background: var(--hero-btn-active-color);
+}
+
 .section-title {
   font-size: 36px;
   line-height: 1.2;
@@ -189,9 +195,10 @@ body {
   font-style: normal;
 }
 
-.location:hover,
-.mail:hover,
-.phone:hover {
+
+.address-action:hover,
+.address-action:focus
+ {
   color: var(--accent-color);
 }
 
