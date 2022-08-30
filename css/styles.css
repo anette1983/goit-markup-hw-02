@@ -52,46 +52,41 @@ body {
   color: var(--accent-color);
 }
 
-.nav-item {
+.nav-item, .contact-item {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
 
+.nav-item {
   color: var(--secondary-text-color);
 }
 
 .nav-item:hover,
-.nav-item:focus {
-  color: var(--accent-color);
-}
-
+.nav-item:focus,
+.contact-item:hover,
+.contact-item:focus,
 .current.nav-item {
   color: var(--accent-color);
-}
+} 
+
 
 .contact-item {
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
 
-.contact-item:hover,
-.contact-item:focus {
-  color: var(--accent-color);
-}
 
 .hero {
   background-color: var(--dark-fill-color);
   text-align: center;
+  letter-spacing: 0.06em;
 }
 
 .hero-text {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
-  letter-spacing: 0.06em;
+ 
   text-transform: uppercase;
 
   color: var(--light-text-color);
@@ -221,15 +216,12 @@ body {
 }
 
 .filter-button:hover,
-.filter-button:focus {
-  background-color: var(--accent-color);
-  color: var(--light-text-color);
-}
-
+.filter-button:focus,
 .filter-button.current {
   background-color: var(--accent-color);
   color: var(--light-text-color);
 }
+
 
 .work-item {
   border: 1px solid #EEEEEE;
