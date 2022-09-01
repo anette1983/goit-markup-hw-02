@@ -19,9 +19,7 @@
 body {
   font-family: var(--main-font);
   font-size: 14px;
-  line-height: 1.7;
   font-style: normal;
-  font-weight: 400;
   letter-spacing: 0.03em;
   background-color: var(--primary-fill-color);
   color: var(--primary-text-color);
@@ -122,6 +120,7 @@ body {
 }
 
 .features-title {
+  font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -181,12 +180,14 @@ body {
 .location {
   color: var(--light-text-color);
   font-style: normal;
+  line-height: 1.7;
 }
 
 .mail,
 .phone {
   color: var(--bottom-contacts-color);
   font-style: normal;
+  line-height: 1.7;
 }
 
 
